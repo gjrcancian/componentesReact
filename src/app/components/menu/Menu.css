@@ -1,0 +1,34 @@
+.container_app{
+    background-color: rgb(249, 247, 247);
+    width: 100vh;
+    padding:15px;
+    height: 100vh;
+    display:flex; 
+    flex-direction:row;
+    justify-content: start !important;
+    border-radius: 0px 5px 5px 0px;
+}
+.menu{
+
+    background-color: rgb(255, 247, 13);
+    width:38vh;
+    padding:15px;
+    height: 100vh;
+    display:flex; 
+    flex-direction:column;
+    justify-content: start !important;
+    border-radius: 0px 5px 5px 0px;
+}
+.menu > *  {
+    margin-top: 10px;
+    border-radius: 150px; /* Adiciona 10 pixels de margem acima de todos os elementos exceto o primeiro */
+}
+
+.botao{
+
+      background-color:  rgb(38, 158, 25);
+}
+.botao :hover{
+
+    background-color:  rgb(75, 7, 7);
+}
